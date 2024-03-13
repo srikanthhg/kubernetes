@@ -18,3 +18,5 @@ managedNodeGroups:
 #eksctl create cluster --config-file=eks-cluster.yaml
 # eksctl delete cluster --config-file=eks-cluster.yaml
 # 'eksctl delete cluster --region=us-east-1 --name=myekscluster01'
+
+# I have attached a role and attached AdministratorAccess Policy so no need to configure aws credentials(aws configure)
